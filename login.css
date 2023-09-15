@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(53,53,71,1) 18%, rgba(0,212,255,1) 60%);
 }
 
 .container {
@@ -13,20 +14,22 @@ body {
     position: relative;
     left: 400px;
     top: 100px;
+    background: linear-gradient(0deg, rgba(14,82,155,0.8929622874540442) 25%, rgba(234,123,53,0.8341387580422794) 100%);
     background-color: black;
-    color: white;
+    color: white; 
     border-radius: 10px;
-    box-shadow: 0 10px 10px 0 #403e3e73, 
-                10px 10px 10px 0 #c97911ae, 
-                10px 10px 10px 0 #b1720473;
+    box-shadow: 0 10px 10px 0 #020024, 
+                10px 0px 10px 0 #090979, 
+                10px 0px 10px 0 #00d4ff;
 }
 
 .parent {
     width: 500px;
     height: 300px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
-    background-color: rgb(116, 79, 10);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 18%, rgba(0,212,255,1) 60%)
+    background-color: rgb(116, 79, 10); 
 }
 
 #first {
@@ -41,7 +44,7 @@ body {
     width: 150px;
     height: 50%;
     font-size: 20px;
-    border-right: 2px solid white;
+    /* border-right: 2px solid white; */
     text-align: center;
     font-weight: bold;
 
@@ -56,7 +59,7 @@ body {
     width: 150px;
     height: 50%;
     font-size: 20px;
-    border-right: 2px solid white;
+    /* border-right: 2px solid white; */
     margin: auto;
     font-weight: bold;
 
@@ -100,5 +103,7 @@ input {
     cursor: pointer;
     font-weight: bold;
     font-size: large;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 18%, rgba(0,212,255,1) 60%)
+
     background-color: rgb(150, 104, 19);
 }
